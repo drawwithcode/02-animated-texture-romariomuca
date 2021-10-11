@@ -1,8 +1,31 @@
-html, body {
+@import url("https://fonts.google.com/share?selection.family=Lekton");
+
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 canvas {
   display: block;
+}
+.button {
+  background-color: rgb(255, 30, 0); /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "lekton";
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: rgb(255, 184, 0); /* Green */
+  color: #000000;
 }
